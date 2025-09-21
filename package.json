@@ -1,0 +1,27 @@
+{
+  "name": "to-do-list-website",
+  "version": "1.0.0",
+  "description": "i just created this because i got bored and want to type something",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mounika-S-S/to-do-list-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mounika-S-S/to-do-list-website/issues"
+  },
+  "homepage": "https://github.com/Mounika-S-S/to-do-list-website#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.18.1"
+  }
+}
