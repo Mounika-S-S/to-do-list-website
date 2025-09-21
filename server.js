@@ -21,7 +21,7 @@ app.use(express.static('public'));
 // . is encoded as %2E.
 
 // ? is encoded as %3F.
-mongoose.connect('mongodb+srv://mounika:PhzLZ4jeqZtWL466@todo-cluster.repf28f.mongodb.net/?retryWrites=true&w=majority&appName=todo-cluster');
+mongoose.connect('');
 const db=mongoose.connection;
 db.on('error',console.error.bind(console,'connection error:'));
 db.once('open',()=>{
